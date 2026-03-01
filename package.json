@@ -16,6 +16,7 @@
   "packageManager": "pnpm@10.19.0",
   "devDependencies": {
     "@biomejs/biome": "2.4.4",
+    "@types/marked-terminal": "^6.1.1",
     "@types/node": "^25.3.0",
     "@types/react": "^19.2.14",
     "committier": "^0.2.3",
@@ -26,10 +27,13 @@
   "dependencies": {
     "@inkjs/ui": "^2.0.0",
     "ai": "^6.0.99",
+    "dedent": "^1.7.1",
     "globby": "^16.1.1",
     "ink": "^6.8.0",
     "ink-big-text": "^2.0.0",
     "ink-gradient": "^4.0.0",
+    "marked": "^17.0.3",
+    "marked-terminal": "^7.3.0",
     "ollama-ai-provider-v2": "^3.3.1",
     "openai": "^6.25.0",
     "react": "^19.2.4",

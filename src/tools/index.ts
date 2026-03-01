@@ -6,6 +6,6 @@ import { writeFileTool } from "./write-file.tool.ts";
 export const tools = {
   get_system_date_time: getSystemDateTimeTool,
   read_file: readFileTool,
-    write_file: writeFileTool,
-    list_files: listFilesTool,
+  write_file: writeFileTool,
+  list_files: listFilesTool,
 };

@@ -14,7 +14,6 @@ export const listFilesTool = tool({
     "List all files and directories in the specified directory path. Use this to access user's project working directory and files.",
   inputSchema: listFilesToolInputSchema,
   async execute({ directory }) {
-    console.log({directory})
     try {
       const paths = await globby(directory, { gitignore: true });
       return paths.join("\n");
